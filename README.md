@@ -33,3 +33,38 @@ A growing SaaS application experienced surging customer support queue volumes an
 ├── docs/                       # Summary JSON reports and metric definitions
 ├── requirements.txt
 └── README.md
+
+```
+ Technical Implementation 
+1. Data Pipeline & Synthetic EngineeringGenerated a realistic 2,500-ticket dataset using numpy, pandas, and faker incorporating right-skewed lognormal distributions for resolution times and Pareto distributions for repeat customer interactions.
+2. SQL Analytics Engine (DuckDB)
+   Staging & SLA Logic (01_stg_support_tickets.sql): Implemented tier-specific SLA thresholds (Enterprise: $\le 15$m, Premium: $\le 30$m, Free: $\le 60$m) and defined churn-risk parameters ($CSAT \le 2$ or $Resolution > 48h$).
+   Category Performance (02_agg_category_performance.sql): Aggregated total volume, resolution rates, escalation ratios, and SLA compliance percentages by channel and subcategory.
+   Tier Health Matrix (03_agg_customer_tier_health.sql): Calculated repeat contact percentages and churn risk exposures by customer tier.
+
+4. NLP Sentiment Analysis & N-Gram Mining
+   Utilized NLTK VADER (Valence Aware Dictionary and sEntiment Reasoner) to score ticket text sentiment on a scale from $-1.0$ to $+1.0$.
+   Extracted top negative bigrams using custom regular expressions and stop-word filtering across tickets flagged with $CSAT \le 2$ or negative sentiment.
+
+ Strategic Recommendations 
+  Self-Service Knowledge Base: Deploy automated self-service workflows for "Password Reset" and "Account Locked" subcategories to clear 19% of ticket volume and reduce queue pressure. 
+  Engineering Bug Prioritization: Address checkout state persistence bugs causing "page stuck loading" errors to eliminate the leading driver of customer escalations. 
+  Dedicated Enterprise Routing: Route all Enterprise billing queries directly to senior support staff to preserve high-tier revenue and lower repeat contact rates below 10%. 
+  
+ How to Run Locally
+
+# 1. Clone repository
+git clone [https://github.com/your-username/cx-support-operations-audit.git](https://github.com/your-username/cx-support-operations-audit.git)
+cd cx-support-operations-audit
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Generate raw dataset
+python src/generate_data.py
+
+# 4. Run DuckDB SQL pipeline
+python src/run_sql_pipeline.py
+
+# 5. Run NLP sentiment analysis
+python src/nlp_sentiment_audit.py
