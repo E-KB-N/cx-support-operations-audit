@@ -1,0 +1,20 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Data files (keep raw/processed CSVs out of GitHub tracking if they get large)
+data/raw/*.csv
+data/processed/*.csv
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Power BI temp files
+*.tmp

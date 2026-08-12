@@ -1,0 +1,4 @@
+customer_tier,ticket_volume,distinct_customers,repeat_contact_customers,repeat_contact_rate_pct,overall_csat_score,sla_compliance_rate_pct,churn_risk_ticket_pct
+Premium,687,492,126,25.61,2.93,74.67,31.00
+Free,1544,840,358,42.62,2.82,72.28,36.72
+Enterprise,269,230,30,13.04,2.95,89.22,28.62

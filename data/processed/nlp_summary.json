@@ -1,0 +1,64 @@
+{
+  "total_tickets": 2500,
+  "sentiment_distribution": {
+    "Positive": {
+      "count": 791,
+      "percentage": 31.64
+    },
+    "Neutral": {
+      "count": 788,
+      "percentage": 31.52
+    },
+    "Negative": {
+      "count": 921,
+      "percentage": 36.84
+    }
+  },
+  "average_csat_by_sentiment": {
+    "Positive": 3.34,
+    "Neutral": 2.76,
+    "Negative": 2.53
+  },
+  "top_negative_key_phrases": [
+    {
+      "phrase": "disrupting need",
+      "count": 202
+    },
+    {
+      "phrase": "already tried",
+      "count": 200
+    },
+    {
+      "phrase": "tried several",
+      "count": 200
+    },
+    {
+      "phrase": "several times",
+      "count": 200
+    },
+    {
+      "phrase": "please resolve",
+      "count": 173
+    },
+    {
+      "phrase": "resolve soon",
+      "count": 173
+    },
+    {
+      "phrase": "soon possible",
+      "count": 173
+    },
+    {
+      "phrase": "page stuck",
+      "count": 164
+    },
+    {
+      "phrase": "stuck loading",
+      "count": 164
+    },
+    {
+      "phrase": "loading cannot",
+      "count": 164
+    }
+  ]
+}

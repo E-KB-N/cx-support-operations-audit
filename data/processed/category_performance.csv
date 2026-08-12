@@ -1,0 +1,81 @@
+category,subcategory,channel,total_tickets,resolved_tickets,escalation_rate_pct,avg_first_response_mins,avg_resolution_hours,avg_csat_score,survey_response_rate_pct,sla_compliance_rate_pct
+App Bug,App Crash,Email,43,34,11.63,69.67,53.66,2.08,60.47,53.49
+Billing/Refunds,Payment Failed,In-App Chat,76,57,11.84,20.82,44.19,2.17,61.84,93.42
+Delivery Delay,Late Delivery,In-App Chat,46,37,8.70,20.04,29.84,3.03,73.91,97.83
+App Bug,Login Timeout,Email,37,27,5.41,70.95,55.07,1.85,72.97,37.84
+Account Access,Account Locked,Email,38,32,7.89,76.05,12.72,3.86,73.68,31.58
+Delivery Delay,Tracking Not Updated,WhatsApp,23,16,17.39,27.74,26.40,2.95,82.61,100.00
+Account Access,Password Reset,WhatsApp,22,19,9.09,37.23,11.36,3.71,77.27,86.36
+App Bug,Notification Error,Social Media,21,18,9.52,54.76,44.56,2.00,76.19,71.43
+Feature Request,Export Data,Social Media,7,7,0.00,55.00,29.63,4.20,71.43,57.14
+Delivery Delay,Tracking Not Updated,In-App Chat,55,47,5.45,20.85,26.29,3.13,72.73,90.91
+Account Access,Password Reset,In-App Chat,51,41,3.92,21.33,9.01,3.77,68.63,94.12
+Billing/Refunds,Payment Failed,WhatsApp,31,28,0.00,33.97,34.69,2.35,74.19,83.87
+Delivery Delay,Wrong Delivery Address,Email,28,22,17.86,70.46,33.10,2.72,64.29,35.71
+Delivery Delay,Late Delivery,WhatsApp,13,8,23.08,31.46,44.66,2.29,53.85,76.92
+Billing/Refunds,Incorrect Amount,Social Media,16,14,6.25,42.19,45.28,2.38,81.25,75.00
+Feature Request,Notification Controls,Social Media,6,6,0.00,23.00,15.45,4.33,50.00,100.00
+Account Access,Account Locked,In-App Chat,46,39,6.52,24.43,13.98,3.55,67.39,93.48
+App Bug,App Crash,In-App Chat,52,35,13.46,28.06,55.43,2.00,73.08,88.46
+Billing/Refunds,Payment Failed,Email,37,27,13.51,83.73,32.80,2.31,70.27,40.54
+Account Access,Verification Code Missing,Social Media,11,10,9.09,33.18,13.74,3.75,72.73,90.91
+App Bug,Login Timeout,In-App Chat,51,43,5.88,24.75,47.97,2.03,68.63,92.16
+Delivery Delay,Late Delivery,Email,30,26,6.67,65.50,23.43,3.06,60.00,53.33
+Delivery Delay,Wrong Delivery Address,WhatsApp,20,14,5.00,37.65,30.36,2.69,65.00,80.00
+Feature Request,Dark Mode,Social Media,8,6,0.00,27.00,14.14,4.40,62.50,100.00
+App Bug,Page Not Loading,Social Media,10,8,10.00,47.30,45.48,3.00,70.00,70.00
+Delivery Delay,Missing Items,In-App Chat,45,38,13.33,20.18,28.06,3.00,60.00,97.78
+Feature Request,Notification Controls,Email,36,28,5.56,77.17,21.88,4.25,66.67,50.00
+App Bug,Page Not Loading,WhatsApp,38,28,18.42,32.03,50.73,1.97,84.21,89.47
+Feature Request,New Payment Option,In-App Chat,32,22,21.88,15.66,22.68,4.27,68.75,100.00
+Billing/Refunds,Incorrect Amount,Email,58,46,6.90,62.31,37.60,2.23,68.97,41.38
+Billing/Refunds,Refund Pending,In-App Chat,59,48,6.78,20.02,36.98,2.36,74.58,88.14
+Account Access,Profile Update Failed,In-App Chat,50,43,4.00,21.68,11.81,3.74,68.00,100.00
+Feature Request,Dark Mode,WhatsApp,8,6,0.00,50.00,13.87,3.75,50.00,62.50
+Account Access,Verification Code Missing,WhatsApp,28,26,0.00,24.68,11.10,3.64,50.00,92.86
+Billing/Refunds,Duplicate Charge,In-App Chat,54,45,5.56,18.81,41.50,2.32,70.37,96.30
+Delivery Delay,Wrong Delivery Address,Social Media,13,8,15.38,32.54,31.42,3.17,46.15,92.31
+Billing/Refunds,Incorrect Amount,In-App Chat,73,64,5.48,19.38,34.76,2.51,67.12,97.26
+Billing/Refunds,Duplicate Charge,Email,46,35,13.04,73.76,40.44,2.15,43.48,50.00
+Feature Request,Export Data,WhatsApp,16,14,6.25,23.75,19.41,3.92,75.00,100.00
+Delivery Delay,Tracking Not Updated,Social Media,11,9,9.09,55.64,34.81,2.80,45.45,54.55
+Feature Request,New Payment Option,Email,27,22,11.11,63.56,18.97,3.95,81.48,51.85
+Delivery Delay,Missing Items,Email,36,25,16.67,72.00,26.88,3.00,61.11,27.78
+App Bug,Notification Error,WhatsApp,25,19,12.00,28.04,43.02,1.89,72.00,88.00
+Billing/Refunds,Refund Pending,Email,42,36,4.76,89.86,33.76,2.37,71.43,26.19
+Account Access,Profile Update Failed,Email,35,26,8.57,74.46,11.49,3.86,62.86,31.43
+Account Access,Password Reset,Social Media,16,14,12.50,36.13,9.22,4.20,62.50,75.00
+Feature Request,Notification Controls,In-App Chat,34,28,11.76,21.26,18.36,4.13,70.59,94.12
+Delivery Delay,Late Delivery,Social Media,14,11,21.43,48.64,36.35,3.25,85.71,78.57
+App Bug,Notification Error,In-App Chat,63,50,11.11,25.24,45.82,2.15,76.19,92.06
+Billing/Refunds,Payment Failed,Social Media,20,15,10.00,43.30,36.24,2.29,70.00,55.00
+Feature Request,Dark Mode,Email,21,18,9.52,48.57,18.32,4.23,61.90,52.38
+Billing/Refunds,Incorrect Amount,WhatsApp,44,37,9.09,26.77,35.57,2.50,68.18,90.91
+App Bug,Page Not Loading,Email,54,44,5.56,80.39,48.30,2.08,70.37,35.19
+Account Access,Verification Code Missing,Email,29,24,10.34,58.93,11.05,3.64,75.86,44.83
+Feature Request,Export Data,In-App Chat,29,27,0.00,19.31,18.99,4.05,65.52,100.00
+Feature Request,Notification Controls,WhatsApp,10,8,10.00,32.70,13.25,4.00,80.00,90.00
+Feature Request,Dark Mode,In-App Chat,28,25,0.00,14.82,14.46,4.06,57.14,100.00
+App Bug,Login Timeout,Social Media,17,11,11.76,37.41,53.98,1.93,82.35,58.82
+Billing/Refunds,Duplicate Charge,WhatsApp,45,39,8.89,36.58,36.06,2.46,57.78,84.44
+Billing/Refunds,Refund Pending,WhatsApp,39,34,5.13,36.13,34.38,2.64,71.79,79.49
+Account Access,Verification Code Missing,In-App Chat,52,45,9.62,19.12,10.96,3.59,61.54,86.54
+App Bug,Page Not Loading,In-App Chat,62,41,16.13,25.35,54.52,2.27,59.68,90.32
+Delivery Delay,Missing Items,WhatsApp,18,13,11.11,21.33,22.47,2.93,77.78,94.44
+App Bug,App Crash,Social Media,20,17,10.00,31.65,43.51,2.13,40.00,65.00
+Feature Request,Export Data,Email,20,12,15.00,82.70,19.64,3.93,75.00,30.00
+App Bug,Notification Error,Email,48,37,12.50,63.75,42.11,2.21,68.75,45.83
+Account Access,Profile Update Failed,WhatsApp,16,8,25.00,29.56,14.10,3.50,75.00,75.00
+Feature Request,New Payment Option,WhatsApp,10,7,10.00,35.70,19.83,3.89,90.00,70.00
+Account Access,Account Locked,Social Media,14,13,0.00,34.93,13.62,3.50,71.43,85.71
+Account Access,Account Locked,WhatsApp,27,22,7.41,34.63,15.26,3.43,77.78,85.19
+Delivery Delay,Wrong Delivery Address,In-App Chat,43,37,6.98,21.02,31.71,2.93,65.12,97.67
+Billing/Refunds,Refund Pending,Social Media,25,23,4.00,53.32,45.71,2.26,76.00,60.00
+Delivery Delay,Tracking Not Updated,Email,28,23,7.14,66.96,26.43,2.86,75.00,39.29
+App Bug,App Crash,WhatsApp,30,26,6.67,29.77,55.04,2.26,63.33,83.33
+Account Access,Profile Update Failed,Social Media,18,14,5.56,41.89,8.97,3.79,77.78,77.78
+App Bug,Login Timeout,WhatsApp,32,26,12.50,27.16,48.72,2.31,81.25,100.00
+Billing/Refunds,Duplicate Charge,Social Media,20,15,10.00,36.50,32.88,2.57,70.00,75.00
+Account Access,Password Reset,Email,30,24,13.33,72.50,11.74,3.80,66.67,30.00
+Delivery Delay,Missing Items,Social Media,10,10,0.00,30.70,28.47,2.60,50.00,90.00
+Feature Request,New Payment Option,Social Media,4,3,0.00,48.50,8.72,4.25,100.00,75.00
